@@ -1,0 +1,8 @@
+version: '3'
+services:
+  your-app:
+    container_name: mw-reviews
+    image: mw-reviews
+    ports:
+      - "5002:8080"
+    restart: unless-stopped
